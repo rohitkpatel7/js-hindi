@@ -81,12 +81,41 @@
 // console.log(boolStr3);
 
 
-let someNumber=33
-let stringNumber=String(someNumber)
-//console.log(typeof someNumber);
-console.log(typeof stringNumber);
-//console.log(someNumber);
-console.log(stringNumber);
+// let someNumber=33
+// let stringNumber=String(someNumber)
+// //console.log(typeof someNumber);
+// console.log(typeof stringNumber);
+// //console.log(someNumber);
+// console.log(stringNumber);
 
+
+
+//******** operations ******/
+let str1="hello"
+let str2="rohit"
+let str3=str1+str2
+console.log(str3)
+
+// console.log("1"+2)
+// console.log(1+"2")
+// console.log("1"+2+2)
+// console.log(1+"2"+2)
+// console.log(1+2+"2")
+
+console.log(true)
+
+//Don't do this type of conversion
+// console.log(+true)
+// console.log(+"")
+
+
+let gameCounter=100
+++gameCounter;
+console.log(gameCounter);
+
+
+//reference
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
 
 // node 0_basics/03_conversionOperation.js 
