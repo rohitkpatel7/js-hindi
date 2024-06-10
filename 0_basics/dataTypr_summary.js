@@ -37,15 +37,17 @@ console.log(id===anotherId)
 //  console.log(typeof outsideTemp);
 //  console.log(typeof myFunction);
 
- //reference for interview : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+ //reference for interview que of typeof datatype : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 
 
 
 //******** memory *******/
 
-//Stack (primitive me use hoti hai),Heap(Non primitive type me use hoti hai)
+//Stack (primitive me use hoti hai)
+//Heap(Non primitive type me use hoti hai)
 
 let myName="RohitKPatel"
+//call by value
 let anotherName=myName     
 anotherName="PatelRohit"
 //console.log(myName)
@@ -64,3 +66,8 @@ console.log(userOne.email)
 console.log(userTwo.email);
 
 //note: jitne bhi primitive value hai vo sab stack ke andar jate hai and jab bhi stackme koi chij lenge uska copy hi milta hai but jab heapme koi value lete hai to reference milta hai
+
+
+
+
+
